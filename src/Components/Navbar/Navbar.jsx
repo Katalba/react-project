@@ -1,3 +1,6 @@
+import CartWidget from "../CartWidget/CartWidget";
+import Secciones from "./Secciones/Secciones";
+
 const Navbar = () => {
 
     return (
@@ -11,38 +14,8 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="index.html">Inicio</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="html/jeans.html">Jeans</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="html/remeras.html">Remeras</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="html/vestidos.html">Vestidos</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="html/accesorios.html">Accesorios</a>
-                        </li>
-                        <li className="nav-item">
-                            <a id="show_cart" className="nav-link" href="#"><i className="fa-solid fa-cart-shopping" /></a>
-                            <div className="container" id="cart">
-                                <table className="table table-default">
-                                    <thead>
-                                        <tr>
-                                            <td>Producto</td>
-                                            <td>Cantidad</td>
-                                            <td>Precio</td>
-                                            <td />
-                                        </tr>
-                                    </thead>
-                                    <tbody id="t-body">
-                                    </tbody>
-                                </table>
-                            </div>
-                        </li>
+                        <Secciones/>
+                        <CartWidget/>
                     </ul>
                 </div>
             </div>
