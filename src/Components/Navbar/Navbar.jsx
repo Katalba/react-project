@@ -1,5 +1,5 @@
 import CartWidget from "../CartWidget/CartWidget";
-import Secciones from "./Secciones/Secciones";
+import Sections from "./Sections/Sections";
 
 const Navbar = () => {
 
@@ -14,8 +14,8 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
-                        <Secciones/>
-                        <CartWidget/>
+                        <Sections/>
+                        <CartWidget amount={3}/>
                     </ul>
                 </div>
             </div>

@@ -1,6 +1,5 @@
 
-
-const Secciones = () => {
+const Sections = () => {
     return (
         <>
             <li className="nav-item">
@@ -22,4 +21,4 @@ const Secciones = () => {
     );
 }
 
-export default Secciones;
+export default Sections;
