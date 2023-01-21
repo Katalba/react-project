@@ -1,1 +1,36 @@
+header {
+    width: 100%;
+    position: relative;
+}
 
+.image{
+object-fit: cover;
+height: 100vh;
+}
+
+h2{
+    top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+}
+
+.bg-light {
+    background: rgba(255, 255, 255, 0.267) !important;
+}
+
+.bg-light .navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bg-light .navbar-collapse .navbar-nav .nav-item {
+    padding: 5px 8px;
+}
+
+.nav-link{
+    color: #111;
+    font-size: 14px;
+    text-transform: uppercase;
+}
