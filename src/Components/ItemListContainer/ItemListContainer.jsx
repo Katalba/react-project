@@ -1,7 +1,9 @@
 
-const ItemListContainer = ({ greeting }) => {
+const ItemListContainer = ({shop}) => {
     return (
-            <h2>{greeting}</h2>
+        <button className="button-header">
+        <p className="button-compra"><a href="index.html">{shop}</a></p>
+      </button>
         
     );
 }

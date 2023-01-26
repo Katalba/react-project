@@ -4,22 +4,22 @@ import Sections from "./Sections/Sections";
 const Navbar = () => {
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <div className="container-fluid">
-                <a className="navbar-brand" href="index.html">
-                    <img src="img/LOGO.png" height="50px" alt="logo" />
-                </a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon" />
-                </button>
-                <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul className="navbar-nav">
-                        <Sections/>
-                        <CartWidget amount={3}/>
-                    </ul>
+            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+                <div className="container-fluid">
+                    <a className="navbar-brand" href="#">
+                        <img src="./img/LOGO.png" alt="logo" width="200px" />
+                    </a>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon" />
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav">
+                            <Sections/>
+                            <CartWidget amount={3}/>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
     );
 }
 
