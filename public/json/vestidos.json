@@ -1,0 +1,135 @@
+[
+    {
+            "id": "vestido01",
+            "title": "Dresses",
+            "imagen": "img/vestido1.webp",
+            "categoria": {
+                "name": "vestidos",
+                "id": "vestidos"
+        },
+            "precio": 200,
+            "stock": 30
+    },
+    {
+            "id": "vestido02",
+            "title": "Dresses",
+            "imagen": "img/vestido2.webp",
+            "categoria": {
+                "name": "vestidos",
+                "id": "vestidos"
+        },
+            "precio": 250,
+            "stock": 15
+
+    },
+    {
+            "id": "vestido03",
+            "title": "Dresses",
+            "imagen": "img/vestido3.webp",
+            "categoria": {
+                "name": "vestidos",
+                "id": "vestidos"
+        },
+            "precio": 200,
+            "stock": 20
+    },
+    {
+            "id": "vestido04",
+            "title": "Dresses",
+            "imagen": "img/vestido4.webp",
+            "categoria": {
+                "name": "vestidos",
+                "id": "vestidos"
+        },
+            "precio": 250,
+            "stock": 30
+    },
+    {
+            "id": "vestido05",
+            "title": "Dresses",
+            "imagen": "img/vestido5.webp",
+            "categoria": {
+                "name": "vestidos",
+                "id": "vestidos"
+        },
+            "precio": 200,
+            "stock": 15
+    },
+    {
+            "id": "vestido06",
+            "title": "Dresses",
+            "imagen": "img/vestido6.webp",
+            "categoria": {
+                "name": "vestidos",
+                "id": "vestidos"
+        },
+            "precio": 250,
+            "stock": 20
+    },
+    {
+            "id": "vestido07",
+            "title": "Dresses",
+            "imagen": "img/vestido7.webp",
+            "categoria": {
+                "name": "vestidos",
+                "id": "vestidos"
+        },
+            "precio": 200,
+            "stock": 30
+    },
+    {
+            "id": "vestido08",
+            "title": "Dresses",
+            "imagen": "img/vestido12.webp",
+            "categoria": {
+                "name": "vestidos",
+                "id": "vestidos"
+        },
+            "precio": 250,
+            "stock": 15
+    },
+    {
+            "id": "vestido09",
+            "title": "Dresses",
+            "imagen": "img/vestido8.webp",
+            "categoria": {
+                "name": "vestidos",
+                "id": "vestidos"
+        },
+            "precio": 200,
+            "stock": 20
+    },
+    {
+            "id": "vestido10",
+            "title": "Dresses",
+            "imagen": "img/vestido9.webp",
+            "categoria": {
+                "name": "vestidos",
+                "id": "vestidos"
+        },
+            "precio": 250,
+            "stock": 30
+    },
+    {
+            "id": "vestido11",
+            "title": "Dresses",
+            "imagen": "img/vestido10.webp",
+            "categoria": {
+                "name": "vestidos",
+                "id": "vestidos"
+        },
+            "precio": 200,
+            "stock": 15
+    },
+    {
+        "id": "vestido12",
+        "title": "Dresses",
+        "imagen": "img/vestido11.webp",
+        "categoria": {
+            "name": "vestidos",
+            "id": "vestidos"
+        },
+        "precio": 250,
+        "stock": 30
+    }
+]

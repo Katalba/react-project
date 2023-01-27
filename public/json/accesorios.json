@@ -1,0 +1,134 @@
+[
+    {
+        "id": "accesorios01",
+        "title": "Acessories",
+        "imagen": "img/jeann.webp",
+        "categoria": {
+            "name": "accesorios",
+            "id": "accesorios"
+        },
+        "precio": 200,
+        "stock": 30
+    },
+    {
+        "id": "accesorios02",
+        "title": "Acessories",
+        "imagen": "img/jean blanco.webp",
+        "categoria": {
+            "name": "accesorios",
+            "id": "accesorios"
+        },
+        "precio": 250,
+        "stock": 20
+    },
+    {
+        "id": "accesorios03",
+        "title": "Acessories",
+        "imagen": "img/Jean amarillo.webp",
+        "categoria": {
+            "name": "accesorios",
+            "id": "accesorios"
+        },
+        "precio": 200,
+        "stock": 15
+    },
+    {
+        "id": "accesorios04",
+        "title": "Acessories",
+        "imagen": "img/Jeancorto.webp",
+        "categoria": {
+            "name": "accesorios",
+            "id": "accesorios"
+        },
+        "precio": 250,
+        "stock": 30
+    },
+    {
+        "id": "accesorios05",
+        "title": "Acessories",
+        "imagen": "img/Jeanmoderno.webp",
+        "categoria": {
+            "name": "accesorios",
+            "id": "accesorios"
+        },
+        "precio": 200,
+        "stock": 20
+    },
+    {
+        "id": "accesorios06",
+        "title": "Acessories",
+        "imagen": "img/JEAN-PORTADA.webp",
+        "categoria": {
+            "name": "accesorios",
+            "id": "accesorios"
+        },
+        "precio": 250,
+        "stock": 15
+    },
+    {
+        "id": "accesorios07",
+        "title": "Acessories",
+        "imagen": "img/jean-siete.webp",
+        "categoria": {
+            "name": "accesorios",
+            "id": "accesorios"
+        },
+        "precio": 200,
+        "stock": 30
+    },
+    {
+        "id": "accesorios08",
+        "title": "Acessories",
+        "imagen": "img/jean-ocho.webp",
+        "categoria": {
+            "name": "accesorios",
+            "id": "accesorios"
+        },
+        "precio": 250,
+        "stock": 20
+    },
+    {
+        "id": "accesorios09",
+        "title": "Acessories",
+        "imagen": "img/jean-nueve.webp",
+        "categoria": {
+            "name": "accesorios",
+            "id": "accesorios"
+        },
+        "precio": 200,
+        "stock": 15
+    },
+    {
+        "id": "accesorios10",
+        "title": "Acessories",
+        "imagen": "img/jean-diez.webp",
+        "categoria": {
+            "name": "accesorios",
+            "id": "accesorios"
+        },
+        "precio": 250,
+        "stock": 30
+    },
+    {
+        "id": "accesorios11",
+        "title": "Acessories",
+        "imagen": "img/jean-once.webp",
+        "categoria": {
+            "name": "accesorios",
+            "id": "accesorios"
+        },
+        "precio": 200,
+        "stock": 20
+    },
+    {
+        "id": "accesorios12",
+        "title": "Acessories",
+        "imagen": "img/jean-doce.webp",
+        "categoria": {
+            "name": "accesorios",
+            "id": "accesorios"
+        },
+        "precio": 250,
+        "stock": 15
+    }
+]
