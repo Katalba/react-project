@@ -2,7 +2,7 @@
     {
         "id": "remeras01",
         "title": "Blouses",
-        "imagen": "img/Blusa1.webp",
+        "imagen": "img/blusa-1.webp",
         "categoria": {
             "name": "remeras",
             "id": "remeras"
@@ -13,7 +13,7 @@
     {
         "id": "remeras02",
         "title": "Blouses",
-        "imagen": "img/Blusa2.webp",
+        "imagen": "img/blusa-2.webp",
         "categoria": {
             "name": "remeras",
             "id": "remeras"
@@ -24,7 +24,7 @@
     {
         "id": "remeras03",
         "title": "Blouses",
-        "imagen": "img/Blusa3.webp",
+        "imagen": "img/blusa-3.webp",
         "categoria": {
             "name": "remeras",
             "id": "remeras"
@@ -35,7 +35,7 @@
     {
         "id": "remeras04",
         "title": "Blouses",
-        "imagen": "img/Blusa4.webp",
+        "imagen": "img/blusa-4.webp",
         "categoria": {
             "name": "remeras",
             "id": "remeras"
@@ -46,7 +46,7 @@
     {
         "id": "remeras05",
         "title": "Blouses",
-        "imagen": "img/Blusa5.webp",
+        "imagen": "img/blusa-5.webp",
         "categoria": {
             "name": "remeras",
             "id": "remeras"
@@ -57,7 +57,7 @@
     {
         "id": "remeras06",
         "title": "Blouses",
-        "imagen": "img/Blusa6.webp",
+        "imagen": "img/blusa-6.webp",
         "categoria": {
             "name": "remeras",
             "id": "remeras"

@@ -1,14 +1,23 @@
+import { useState,useEffect } from "react";
+import Item from "../Item/Item";
 
-const ItemListContainer = ({shop}) => {
+const ItemListContainer = () => {
+    const [productos, setProductos] = useState([])
+    useEffect(() => {
+        fetch('./json/jeans.json')
+        .then(response => response.json())
+        .then(products => {
+            console.log(products)
+            const productsList = ItemList({products}) //Array de productos en JSX
+            console.log(productsList)
+            setProductos(productsList)
+        })
+    }, [])
     return (
-        <button className="button-header">
-        <p className="button-compra"><a href="index.html">{shop}</a></p>
-      </button>
-        
-    );
+        <>
+            {productos}
+        </>
+    )
 }
 
 export default ItemListContainer;
-
-
-
