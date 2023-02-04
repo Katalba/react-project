@@ -1,22 +1,25 @@
-import { useState,useEffect } from "react";
-import Item from "../Item/Item";
+import { useState, useEffect } from "react";
+import ItemList from '../ItemList/ItemList'
 
 const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
     useEffect(() => {
         fetch('./json/jeans.json')
-        .then(response => response.json())
-        .then(products => {
-            console.log(products)
-            const productsList = ItemList({products}) //Array de productos en JSX
-            console.log(productsList)
-            setProductos(productsList)
-        })
+            .then(response => response.json())
+            .then(products => setProductos(products))
     }, [])
     return (
-        <>
-            {productos}
-        </>
+        <section>
+            <div id="title">
+                <h2>Vestidos</h2>
+            </div>
+            <div class="small-container">
+                <div class="d-flex flex-wrap">
+                    <ItemList productos={productos} />
+                </div>
+            </div>
+        </section>
+
     )
 }
 
