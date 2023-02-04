@@ -9,9 +9,9 @@ export const ItemCount = ({valInicial, stock}) => {
 
   return (
     <>
-        <button className="btn btn-dark" onClick={() => sumar()}>+</button>
+        <button className="btn btn" onClick={() => restar()}>-</button>
             {contador}
-        <button className="btn btn-light" onClick={() => restar()}>-</button>
+        <button className="btn btn" onClick={() => sumar()}>+</button>
     </>
   )
 }

@@ -1,11 +1,12 @@
 import { ItemCount } from "../ItemCount/ItemCount";
 
+
 const ItemDetail = (item) => {
     return (
         <>
             <div className="product-image">
                 <div>
-                    <img src={`../img/${item.imagen}`} alt={item.name} />
+                    <img src={item.imagen} alt={item.name} />
                 </div>
                 <div>
                     <img src="img/Blusa2.webp" alt="" />
@@ -22,7 +23,7 @@ const ItemDetail = (item) => {
                     <p>agregar al carrito</p>
                 </button>
                 <div className="quantify">
-                    <ItemCount valInicial={1} stock={item.stock}/>
+                    <ItemCount valInicial={1} stock={10}/>
                 </div>
             </div>
         </>

@@ -13,8 +13,8 @@ const ItemListContainer = () => {
             <div id="title">
                 <h2>Vestidos</h2>
             </div>
-            <div class="small-container">
-                <div class="d-flex flex-wrap">
+            <div className="small-container">
+                <div className="d-flex flex-wrap">
                     <ItemList productos={productos} />
                 </div>
             </div>

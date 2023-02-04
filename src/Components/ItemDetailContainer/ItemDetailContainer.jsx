@@ -3,17 +3,19 @@ import ItemDetail from "../ItemDetail/ItemDetail";
 import { useParams } from "react-router-dom";
 const ItemDetailContainer = () => {
     const [producto, setProducto] = useState([])
+    const {id} = useParams()
     useEffect(() => {
-        fetch('./json/jeans.json')
+        fetch('../json/jeans.json')
             .then(response => response.json())
             .then(products => {
-                const item = products.find(prod => prod.id === 3)
+                const item = products.find(prod => prod.id === id)
+                setProducto(item)
             })
     }, [])
     return (
         <main className="detail-product">
            
-           <ItemDetail producto={producto} />
+           <ItemDetail item={producto} />
             
         </main>
 

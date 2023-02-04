@@ -4,6 +4,7 @@ import Sections from "./Sections/Sections";
 const Navbar = () => {
 
     return (
+        <div className="nav_bar">
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
@@ -20,6 +21,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
+        </div>
     );
 }
 

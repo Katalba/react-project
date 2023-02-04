@@ -3,23 +3,21 @@ import './App.css';
 import Navbar from './Navbar/Navbar';
 import ItemListContainer from './ItemListContainer/ItemListContainer'
 import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
+import HomeSection from './HomeSection/HomeSection';
 const App = () => {
   return (
     <>
-      <div className="nav_bar">
-        <Navbar />
-      </div>
-      <header>
-        <img className="image" src="./img/carousel-3.webp" alt="img-incio" width="100%" />
-        <ItemListContainer/>
-        <ItemDetailContainer/>
-      </header>
+
+      <Navbar />
+      <HomeSection/>
+      <ItemListContainer />
+      <ItemDetailContainer />
 
     </>
   );
 }
 
-export default App;
+export default App;
 
 
 
