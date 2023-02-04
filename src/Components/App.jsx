@@ -7,11 +7,14 @@ import HomeSection from './HomeSection/HomeSection';
 const App = () => {
   return (
     <>
-
+      <BrowserRouter>
       <Navbar />
-      <HomeSection/>
-      <ItemListContainer />
-      <ItemDetailContainer />
+      <Routes>
+      <Route path='/' element={<HomeSection/>}/>
+      <Route path='/' element={<ItemListContainer />}/>
+      <Route path='/item/:id' element={<ItemDetailContainer />}/>
+      </Routes>
+      </BrowserRouter>
 
     </>
   );
