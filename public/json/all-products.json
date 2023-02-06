@@ -1,463 +1,337 @@
 [
     {
         "id": "accesorios01",
-        "title": "Acessories",
-        "imagen": "img/jeann.webp",
-        "categoria": {
-            "name": "accesorios",
-            "id": "accesorios"
-        },
+        "title": "Monedero Abstract",
+        "imagen": "img/bisuteria-diez.webp",
+        "categoria": "accesorios",
         "precio": 200,
         "stock": 30
     },
     {
         "id": "accesorios02",
-        "title": "Acessories",
-        "imagen": "img/jean blanco.webp",
-        "categoria": {
-            "name": "accesorios",
-            "id": "accesorios"
-        },
+        "title": "Set de aretes",
+        "imagen": "img/bisuteria-doce.webp",
+        "categoria": "accesorios",
         "precio": 250,
         "stock": 20
     },
     {
         "id": "accesorios03",
-        "title": "Acessories",
-        "imagen": "img/Jean amarillo.webp",
-        "categoria": {
-            "name": "accesorios",
-            "id": "accesorios"
-        },
+        "title": "Aretes Dorados M",
+        "imagen": "img/bisuteria-nueve.webp",
+        "categoria": "accesorios",
         "precio": 200,
         "stock": 15
     },
     {
         "id": "accesorios04",
-        "title": "Acessories",
-        "imagen": "img/Jeancorto.webp",
-        "categoria": {
-            "name": "accesorios",
-            "id": "accesorios"
-        },
+        "title": "Gorra Powelful",
+        "imagen": "img/bisuteria-once.webp",
+        "categoria": "accesorios",
         "precio": 250,
         "stock": 30
     },
     {
         "id": "accesorios05",
-        "title": "Acessories",
-        "imagen": "img/Jeanmoderno.webp",
-        "categoria": {
-            "name": "accesorios",
-            "id": "accesorios"
-        },
+        "title": "Set de pulseras",
+        "imagen": "img/bisuteria-ocho.webp",
+        "categoria": "accesorios",
         "precio": 200,
         "stock": 20
     },
     {
         "id": "accesorios06",
-        "title": "Acessories",
-        "imagen": "img/JEAN-PORTADA.webp",
-        "categoria": {
-            "name": "accesorios",
-            "id": "accesorios"
-        },
+        "title": "Aretes Ondulados S",
+        "imagen": "img/bisuteria-seis.webp",
+        "categoria": "accesorios",
         "precio": 250,
         "stock": 15
     },
     {
         "id": "accesorios07",
-        "title": "Acessories",
-        "imagen": "img/jean-siete.webp",
-        "categoria": {
-            "name": "accesorios",
-            "id": "accesorios"
-        },
+        "title": "Argollas Verdes",
+        "imagen": "img/bisuteria-siete.webp",
+        "categoria": "accesorios",
         "precio": 200,
         "stock": 30
     },
     {
         "id": "accesorios08",
-        "title": "Acessories",
-        "imagen": "img/jean-ocho.webp",
-        "categoria": {
-            "name": "accesorios",
-            "id": "accesorios"
-        },
+        "title": "Bolso mimbre",
+        "imagen": "img/bolso-cuatro.webp",
+        "categoria": "accesorios",
         "precio": 250,
         "stock": 20
     },
     {
         "id": "accesorios09",
-        "title": "Acessories",
-        "imagen": "img/jean-nueve.webp",
-        "categoria": {
-            "name": "accesorios",
-            "id": "accesorios"
-        },
+        "title": "Bandolera negra cuero",
+        "imagen": "img/bolso-tres.webp",
+        "categoria": "accesorios",
         "precio": 200,
         "stock": 15
     },
     {
         "id": "accesorios10",
-        "title": "Acessories",
-        "imagen": "img/jean-diez.webp",
-        "categoria": {
-            "name": "accesorios",
-            "id": "accesorios"
-        },
+        "title": "Cadena Doble Dorada",
+        "imagen": "img/cadena.webp",
+        "categoria": "accesorios",
         "precio": 250,
         "stock": 30
     },
     {
         "id": "accesorios11",
-        "title": "Acessories",
-        "imagen": "img/jean-once.webp",
-        "categoria": {
-            "name": "accesorios",
-            "id": "accesorios"
-        },
+        "title": "Cadena con punta Plateada",
+        "imagen": "img/cadena2.webp",
+        "categoria": "accesorios",
         "precio": 200,
         "stock": 20
     },
     {
         "id": "accesorios12",
-        "title": "Acessories",
-        "imagen": "img/jean-doce.webp",
-        "categoria": {
-            "name": "accesorios",
-            "id": "accesorios"
-        },
+        "title": "Bolso casual Love",
+        "imagen": "img/ACCESORIOS-PORTADA.webp",
+        "categoria": "accesorios",
         "precio": 250,
         "stock": 15
     },
     {
         "id": "jean01",
-        "title": "Jeans",
+        "title": "Jean O. Bota Campana",
         "imagen": "img/jeann.webp",
-        "categoria": {
-            "name": "jeans",
-            "id": "jeans"
-        },
+        "categoria": "jeans",
         "precio": 200,
         "stock": 15
     },
     {
         "id": "jean02",
-        "title": "Jeans",
+        "title": "Jean Skinny Blanco",
         "imagen": "img/jean blanco.webp",
-        "categoria": {
-            "name": "jeans",
-            "id": "jeans"
-        },
+        "categoria": "jeans",
         "precio": 250,
         "stock": 20
     },
     {
         "id": "jean03",
-        "title": "Jeans",
+        "title": "Jean Recto Amarillo",
         "imagen": "img/Jean amarillo.webp",
-        "categoria": {
-            "name": "jeans",
-            "id": "jeans"
-        },
+        "categoria": "jeans",
         "precio": 200,
         "stock": 30
     },
     {
         "id": "jean04",
-        "title": "Jeans",
+        "title": "Jean Cropped Claro",
         "imagen": "img/Jeancorto.webp",
-        "categoria": {
-            "name": "jeans",
-            "id": "jeans"
-        },
+        "categoria": "jeans",
         "precio": 250,
         "stock": 15
     },
     {
         "id": "jean05",
-        "title": "Jeans",
+        "title": "Jean BR con recorte en Cos",
         "imagen": "img/Jeanmoderno.webp",
-        "categoria": {
-            "name": "jeans",
-            "id": "jeans"
-        },
+        "categoria": "jeans",
         "precio": 200,
         "stock": 20
     },
     {
         "id": "jean06",
-        "title": "Jeans",
+        "title": "Jean Cuero Cropped Beige",
         "imagen": "img/JEAN-PORTADA.webp",
-        "categoria": {
-            "name": "jeans",
-            "id": "jeans"
-        },
+        "categoria": "jeans",
         "precio": 250,
         "stock": 30
     },
     {
         "id": "jean07",
-        "title": "Jeans",
+        "title": "Palazzo con colgante beige",
         "imagen": "img/jean-siete.webp",
-        "categoria": {
-            "name": "jeans",
-            "id": "jeans"
-        },
+        "categoria": "jeans",
         "precio": 200,
         "stock": 15
     },
     {
         "id": "jean08",
-        "title": "Jeans",
+        "title": "Jean Skinny T. Alto ",
         "imagen": "img/jean-ocho.webp",
-        "categoria": {
-            "name": "jeans",
-            "id": "jeans"
-        },
+        "categoria": "jeans",
         "precio": 250,
         "stock": 20
     },
     {
         "id": "jean09",
-        "title": "Jeans",
+        "title": "Palazzo con pliegue claro",
         "imagen": "img/jean-nueve.webp",
-        "categoria": {
-            "name": "jeans",
-            "id": "jeans"
-        },
+        "categoria": "jeans",
         "precio": 200,
         "stock": 30
     },
     {
         "id": "jean10",
-        "title": "Jeans",
+        "title": "Jean Cropped despuntado",
         "imagen": "img/jean-diez.webp",
-        "categoria": {
-            "name": "jeans",
-            "id": "jeans"
-        },
+        "categoria": "jeans",
         "precio": 250,
         "stock": 15
     },
     {
         "id": "jean11",
-        "title": "Jeans",
+        "title": "Jean Cropped Bota ancha",
         "imagen": "img/jean-once.webp",
-        "categoria": {
-            "name": "jeans",
-            "id": "jeans"
-        },
+        "categoria": "jeans",
         "precio": 200,
         "stock": 20
     },
     {
         "id": "jean12",
-        "title": "Jeans",
+        "title": "Jean Cropped Negro",
         "imagen": "img/jean-doce.webp",
-        "categoria": {
-            "name": "jeans",
-            "id": "jeans"
-        },
+        "categoria": "jeans",
         "precio": 250,
         "stock": 30
     },
     {
         "id": "remeras01",
-        "title": "Blouses",
+        "title": "Blusa manga corta con amarre",
         "imagen": "img/blusa-1.webp",
-        "categoria": {
-            "name": "remeras",
-            "id": "remeras"
-        },
+        "categoria": "remeras",
         "precio": 200,
         "stock": 30
     },
     {
         "id": "remeras02",
-        "title": "Blouses",
+        "title": "Crop envolvente",
         "imagen": "img/blusa-2.webp",
-        "categoria": {
-            "name": "remeras",
-            "id": "remeras"
-        },
+        "categoria": "remeras",
         "precio": 250,
         "stock": 20
     },
     {
         "id": "remeras03",
-        "title": "Blouses",
+        "title": "Blusa con frente cruzado",
         "imagen": "img/blusa-3.webp",
-        "categoria": {
-            "name": "remeras",
-            "id": "remeras"
-        },
+        "categoria": "remeras",
         "precio": 200,
         "stock": 15
     },
     {
         "id": "remeras04",
-        "title": "Blouses",
+        "title": "Camisa corta blanca",
         "imagen": "img/blusa-4.webp",
-        "categoria": {
-            "name": "remeras",
-            "id": "remeras"
-        },
+        "categoria": "remeras",
         "precio": 250,
         "stock": 30
     },
     {
         "id": "remeras05",
-        "title": "Blouses",
+        "title": "Blusa con cuello cruzado",
         "imagen": "img/blusa-5.webp",
-        "categoria": {
-            "name": "remeras",
-            "id": "remeras"
-        },
+        "categoria": "remeras",
         "precio": 200,
         "stock": 20
     },
     {
         "id": "remeras06",
-        "title": "Blouses",
+        "title": "Blusa manga larga gris",
         "imagen": "img/blusa-6.webp",
-        "categoria": {
-            "name": "remeras",
-            "id": "remeras"
-        },
+        "categoria": "remeras",
         "precio": 250,
         "stock": 15
     },
     {
         "id": "vestido01",
-        "title": "Dresses",
+        "title": "Vestido Corto Naranja",
         "imagen": "img/vestido1.webp",
-        "categoria": {
-            "name": "vestidos",
-            "id": "vestidos"
-        },
+        "categoria": "vestidos",
         "precio": 200,
         "stock": 30
     },
     {
         "id": "vestido02",
-        "title": "Dresses",
+        "title": "Vestido Manga larga Señido",
         "imagen": "img/vestido2.webp",
-        "categoria": {
-            "name": "vestidos",
-            "id": "vestidos"
-        },
+        "categoria": "vestidos",
         "precio": 250,
         "stock": 15
     },
     {
         "id": "vestido03",
-        "title": "Dresses",
+        "title": "Vestido corto en Jean",
         "imagen": "img/vestido3.webp",
-        "categoria": {
-            "name": "vestidos",
-            "id": "vestidos"
-        },
+        "categoria": "vestidos",
         "precio": 200,
         "stock": 20
     },
     {
         "id": "vestido04",
-        "title": "Dresses",
+        "title": "Vestido corto rosa",
         "imagen": "img/vestido4.webp",
-        "categoria": {
-            "name": "vestidos",
-            "id": "vestidos"
-        },
+        "categoria": "vestidos",
         "precio": 250,
         "stock": 30
     },
     {
         "id": "vestido05",
-        "title": "Dresses",
+        "title": "Vestido con bolero blanco",
         "imagen": "img/vestido5.webp",
-        "categoria": {
-            "name": "vestidos",
-            "id": "vestidos"
-        },
+        "categoria": "vestidos",
         "precio": 200,
         "stock": 15
     },
     {
         "id": "vestido06",
-        "title": "Dresses",
+        "title": "Vestido Camiseta en rayas",
         "imagen": "img/vestido6.webp",
-        "categoria": {
-            "name": "vestidos",
-            "id": "vestidos"
-        },
+        "categoria": "vestidos",
         "precio": 250,
         "stock": 20
     },
     {
         "id": "vestido07",
-        "title": "Dresses",
+        "title": "Vestido floreado largo",
         "imagen": "img/vestido7.webp",
-        "categoria": {
-            "name": "vestidos",
-            "id": "vestidos"
-        },
+        "categoria": "vestidos",
         "precio": 200,
         "stock": 30
     },
     {
         "id": "vestido08",
-        "title": "Dresses",
+        "title": "Vestido negro en encaje",
         "imagen": "img/vestido12.webp",
-        "categoria": {
-            "name": "vestidos",
-            "id": "vestidos"
-        },
+        "categoria": "vestidos",
         "precio": 250,
         "stock": 15
     },
     {
         "id": "vestido09",
-        "title": "Dresses",
+        "title": "Vestido seda sin mangas rosa",
         "imagen": "img/vestido8.webp",
-        "categoria": {
-            "name": "vestidos",
-            "id": "vestidos"
-        },
+        "categoria": "vestidos",
         "precio": 200,
         "stock": 20
     },
     {
         "id": "vestido10",
-        "title": "Dresses",
+        "title": "Vestido con bolero corto beige",
         "imagen": "img/vestido9.webp",
-        "categoria": {
-            "name": "vestidos",
-            "id": "vestidos"
-        },
+        "categoria": "vestidos",
         "precio": 250,
         "stock": 30
     },
     {
         "id": "vestido11",
-        "title": "Dresses",
+        "title": "Vestido Chaqueta cuero",
         "imagen": "img/vestido10.webp",
-        "categoria": {
-            "name": "vestidos",
-            "id": "vestidos"
-        },
+        "categoria": "vestidos",
         "precio": 200,
         "stock": 15
     },
     {
         "id": "vestido12",
-        "title": "Dresses",
+        "title": "Vestido fiesta plateado",
         "imagen": "img/vestido11.webp",
-        "categoria": {
-            "name": "vestidos",
-            "id": "vestidos"
-        },
+        "categoria": "vestidos",
         "precio": 250,
         "stock": 30
     }
