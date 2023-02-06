@@ -5,7 +5,7 @@ const ItemDetailContainer = () => {
     const [producto, setProducto] = useState([])
     const {id} = useParams()
     useEffect(() => {
-        fetch('../json/jeans.json')
+        fetch('../json/all-products.json')
             .then(response => response.json())
             .then(products => {
                 const item = products.find(prod => prod.id === id)

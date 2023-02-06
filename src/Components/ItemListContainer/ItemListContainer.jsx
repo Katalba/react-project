@@ -1,13 +1,30 @@
 import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import ItemList from '../ItemList/ItemList'
 
 const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
+    const {categoria}= useParams()
     useEffect(() => {
-        fetch('./json/jeans.json')
+        if(categoria){
+            fetch('../json/all-products.json')
             .then(response => response.json())
-            .then(products => setProductos(products))
-    }, [])
+            .then(items => {
+                const products = items.filter(prod => prod.categoria === categoria)
+                const productList = ItemList({products})
+                setProductos(productList)
+            })
+        } else {
+            fetch('./json/all-products.json')
+            .then(response => response.json())
+            .then(products => {
+                const productsList = ItemList({products})
+                setProductos(productsList)
+            })
+        }
+        
+    }, [categoria])
+
     return (
         <section>
             <div id="title">
@@ -15,7 +32,7 @@ const ItemListContainer = () => {
             </div>
             <div className="small-container">
                 <div className="d-flex flex-wrap">
-                    <ItemList productos={productos} />
+                    {productos}
                 </div>
             </div>
         </section>

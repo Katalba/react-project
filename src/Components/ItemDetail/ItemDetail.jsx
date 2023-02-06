@@ -1,6 +1,5 @@
 import { ItemCount } from "../ItemCount/ItemCount";
 
-
 const ItemDetail = ({item}) => {
     return (
         <>
@@ -23,7 +22,7 @@ const ItemDetail = ({item}) => {
                     <p>agregar al carrito</p>
                 </button>
                 <div className="quantify">
-                    <ItemCount valInicial={1} stock={10}/>
+                    <ItemCount valInicial={1} stock={item.stock}/>
                 </div>
             </div>
         </>
