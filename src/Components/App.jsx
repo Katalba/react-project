@@ -8,12 +8,12 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-      <Navbar />
-      <Routes>
-      <Route path='/' element={<HomeSection/>}/>
-      <Route path='/category/:categoria' element={<ItemListContainer />}/>
-      <Route path='/item/:id' element={<ItemDetailContainer />}/>
-      </Routes>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<HomeSection />} />
+          <Route path='/products' element={<ItemListContainer />} />
+          <Route path='/item/:id' element={<ItemDetailContainer />} />
+        </Routes>
       </BrowserRouter>
 
     </>

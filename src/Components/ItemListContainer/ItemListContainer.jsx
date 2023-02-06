@@ -20,15 +20,20 @@ const ItemListContainer = () => {
             .then(products => {
                 const productsList = ItemList({products})
                 setProductos(productsList)
+                
             })
         }
         
     }, [categoria])
 
+    console.log(productos)
+
+    
+
     return (
         <section>
             <div id="title">
-                <h2>Vestidos</h2>
+                <h2></h2>
             </div>
             <div className="small-container">
                 <div className="d-flex flex-wrap">
