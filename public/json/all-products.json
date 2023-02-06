@@ -130,5 +130,335 @@
         },
         "precio": 250,
         "stock": 15
+    },
+    {
+        "id": "jean01",
+        "title": "Jeans",
+        "imagen": "img/jeann.webp",
+        "categoria": {
+            "name": "jeans",
+            "id": "jeans"
+        },
+        "precio": 200,
+        "stock": 15
+    },
+    {
+        "id": "jean02",
+        "title": "Jeans",
+        "imagen": "img/jean blanco.webp",
+        "categoria": {
+            "name": "jeans",
+            "id": "jeans"
+        },
+        "precio": 250,
+        "stock": 20
+    },
+    {
+        "id": "jean03",
+        "title": "Jeans",
+        "imagen": "img/Jean amarillo.webp",
+        "categoria": {
+            "name": "jeans",
+            "id": "jeans"
+        },
+        "precio": 200,
+        "stock": 30
+    },
+    {
+        "id": "jean04",
+        "title": "Jeans",
+        "imagen": "img/Jeancorto.webp",
+        "categoria": {
+            "name": "jeans",
+            "id": "jeans"
+        },
+        "precio": 250,
+        "stock": 15
+    },
+    {
+        "id": "jean05",
+        "title": "Jeans",
+        "imagen": "img/Jeanmoderno.webp",
+        "categoria": {
+            "name": "jeans",
+            "id": "jeans"
+        },
+        "precio": 200,
+        "stock": 20
+    },
+    {
+        "id": "jean06",
+        "title": "Jeans",
+        "imagen": "img/JEAN-PORTADA.webp",
+        "categoria": {
+            "name": "jeans",
+            "id": "jeans"
+        },
+        "precio": 250,
+        "stock": 30
+    },
+    {
+        "id": "jean07",
+        "title": "Jeans",
+        "imagen": "img/jean-siete.webp",
+        "categoria": {
+            "name": "jeans",
+            "id": "jeans"
+        },
+        "precio": 200,
+        "stock": 15
+    },
+    {
+        "id": "jean08",
+        "title": "Jeans",
+        "imagen": "img/jean-ocho.webp",
+        "categoria": {
+            "name": "jeans",
+            "id": "jeans"
+        },
+        "precio": 250,
+        "stock": 20
+    },
+    {
+        "id": "jean09",
+        "title": "Jeans",
+        "imagen": "img/jean-nueve.webp",
+        "categoria": {
+            "name": "jeans",
+            "id": "jeans"
+        },
+        "precio": 200,
+        "stock": 30
+    },
+    {
+        "id": "jean10",
+        "title": "Jeans",
+        "imagen": "img/jean-diez.webp",
+        "categoria": {
+            "name": "jeans",
+            "id": "jeans"
+        },
+        "precio": 250,
+        "stock": 15
+    },
+    {
+        "id": "jean11",
+        "title": "Jeans",
+        "imagen": "img/jean-once.webp",
+        "categoria": {
+            "name": "jeans",
+            "id": "jeans"
+        },
+        "precio": 200,
+        "stock": 20
+    },
+    {
+        "id": "jean12",
+        "title": "Jeans",
+        "imagen": "img/jean-doce.webp",
+        "categoria": {
+            "name": "jeans",
+            "id": "jeans"
+        },
+        "precio": 250,
+        "stock": 30
+    },
+    {
+        "id": "remeras01",
+        "title": "Blouses",
+        "imagen": "img/blusa-1.webp",
+        "categoria": {
+            "name": "remeras",
+            "id": "remeras"
+        },
+        "precio": 200,
+        "stock": 30
+    },
+    {
+        "id": "remeras02",
+        "title": "Blouses",
+        "imagen": "img/blusa-2.webp",
+        "categoria": {
+            "name": "remeras",
+            "id": "remeras"
+        },
+        "precio": 250,
+        "stock": 20
+    },
+    {
+        "id": "remeras03",
+        "title": "Blouses",
+        "imagen": "img/blusa-3.webp",
+        "categoria": {
+            "name": "remeras",
+            "id": "remeras"
+        },
+        "precio": 200,
+        "stock": 15
+    },
+    {
+        "id": "remeras04",
+        "title": "Blouses",
+        "imagen": "img/blusa-4.webp",
+        "categoria": {
+            "name": "remeras",
+            "id": "remeras"
+        },
+        "precio": 250,
+        "stock": 30
+    },
+    {
+        "id": "remeras05",
+        "title": "Blouses",
+        "imagen": "img/blusa-5.webp",
+        "categoria": {
+            "name": "remeras",
+            "id": "remeras"
+        },
+        "precio": 200,
+        "stock": 20
+    },
+    {
+        "id": "remeras06",
+        "title": "Blouses",
+        "imagen": "img/blusa-6.webp",
+        "categoria": {
+            "name": "remeras",
+            "id": "remeras"
+        },
+        "precio": 250,
+        "stock": 15
+    },
+    {
+        "id": "vestido01",
+        "title": "Dresses",
+        "imagen": "img/vestido1.webp",
+        "categoria": {
+            "name": "vestidos",
+            "id": "vestidos"
+        },
+        "precio": 200,
+        "stock": 30
+    },
+    {
+        "id": "vestido02",
+        "title": "Dresses",
+        "imagen": "img/vestido2.webp",
+        "categoria": {
+            "name": "vestidos",
+            "id": "vestidos"
+        },
+        "precio": 250,
+        "stock": 15
+    },
+    {
+        "id": "vestido03",
+        "title": "Dresses",
+        "imagen": "img/vestido3.webp",
+        "categoria": {
+            "name": "vestidos",
+            "id": "vestidos"
+        },
+        "precio": 200,
+        "stock": 20
+    },
+    {
+        "id": "vestido04",
+        "title": "Dresses",
+        "imagen": "img/vestido4.webp",
+        "categoria": {
+            "name": "vestidos",
+            "id": "vestidos"
+        },
+        "precio": 250,
+        "stock": 30
+    },
+    {
+        "id": "vestido05",
+        "title": "Dresses",
+        "imagen": "img/vestido5.webp",
+        "categoria": {
+            "name": "vestidos",
+            "id": "vestidos"
+        },
+        "precio": 200,
+        "stock": 15
+    },
+    {
+        "id": "vestido06",
+        "title": "Dresses",
+        "imagen": "img/vestido6.webp",
+        "categoria": {
+            "name": "vestidos",
+            "id": "vestidos"
+        },
+        "precio": 250,
+        "stock": 20
+    },
+    {
+        "id": "vestido07",
+        "title": "Dresses",
+        "imagen": "img/vestido7.webp",
+        "categoria": {
+            "name": "vestidos",
+            "id": "vestidos"
+        },
+        "precio": 200,
+        "stock": 30
+    },
+    {
+        "id": "vestido08",
+        "title": "Dresses",
+        "imagen": "img/vestido12.webp",
+        "categoria": {
+            "name": "vestidos",
+            "id": "vestidos"
+        },
+        "precio": 250,
+        "stock": 15
+    },
+    {
+        "id": "vestido09",
+        "title": "Dresses",
+        "imagen": "img/vestido8.webp",
+        "categoria": {
+            "name": "vestidos",
+            "id": "vestidos"
+        },
+        "precio": 200,
+        "stock": 20
+    },
+    {
+        "id": "vestido10",
+        "title": "Dresses",
+        "imagen": "img/vestido9.webp",
+        "categoria": {
+            "name": "vestidos",
+            "id": "vestidos"
+        },
+        "precio": 250,
+        "stock": 30
+    },
+    {
+        "id": "vestido11",
+        "title": "Dresses",
+        "imagen": "img/vestido10.webp",
+        "categoria": {
+            "name": "vestidos",
+            "id": "vestidos"
+        },
+        "precio": 200,
+        "stock": 15
+    },
+    {
+        "id": "vestido12",
+        "title": "Dresses",
+        "imagen": "img/vestido11.webp",
+        "categoria": {
+            "name": "vestidos",
+            "id": "vestidos"
+        },
+        "precio": 250,
+        "stock": 30
     }
 ]
