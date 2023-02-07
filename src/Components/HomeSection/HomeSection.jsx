@@ -4,7 +4,7 @@ const HomeSection = () => {
     return (
         <>
             <header>
-                <BtnComprar shop={"comprar ahora"}/>
+                <BtnComprar shop={"Ver todo"}/>
             </header>
         </>
     );
