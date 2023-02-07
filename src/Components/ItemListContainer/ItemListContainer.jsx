@@ -26,14 +26,12 @@ const ItemListContainer = () => {
         
     }, [categoria])
 
-    console.log(productos)
-
     
 
     return (
         <section>
             <div id="title">
-                <h2></h2>
+            { categoria ? <h2 >{categoria}</h2>:<h2>Todos los productos</h2>}
             </div>
             <div className="small-container">
                 <div className="d-flex flex-wrap">

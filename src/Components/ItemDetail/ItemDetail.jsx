@@ -5,25 +5,28 @@ const ItemDetail = ({item}) => {
         <>
             <div className="product-image">
                 <div>
-                    <img src={item.imagen} alt={item.name} />
+                    <img src={item.imagen} alt={item.title} />
                 </div>
                 <div>
-                    <img src="img/Blusa2.webp" alt="" />
+                    <img src={item.detailImg} alt={item.title} />
+                </div>
+                <div>
+                    <img src={item.detailImgDos} alt={item.title} />
                 </div>
             </div>
             <div className="product-information">
                 <div className="product-name">
-                    <p>{item.name}</p>
+                    <p>{item.title}</p>
                 </div>
                 <div className="product-price">
                     <p>${new Intl.NumberFormat('de-DE').format(item.precio)}</p>
                 </div>
-                <button className="add-to-cart">
-                    <p>agregar al carrito</p>
-                </button>
                 <div className="quantify">
                     <ItemCount valInicial={1} stock={item.stock}/>
                 </div>
+                <button className="add-to-cart">
+                    <p>agregar al carrito</p>
+                </button>
             </div>
         </>
     );
