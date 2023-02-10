@@ -235,3 +235,119 @@ header {
     color: #000;
     font-size: 15px;
 }
+
+
+/*********************** Formulario *********************/
+
+form {
+    margin: 5rem;
+}
+
+.mb-3 {
+    width: 60%;
+
+}
+
+.form-label {
+    text-transform: uppercase;
+}
+
+.mb-3 .btn-dark {
+    border-radius: 0;
+}
+
+.submit {
+    text-transform: uppercase;
+}
+
+.home-form {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.brand-form {
+    display: flex;
+    justify-content: center;
+}
+
+/* *********************** Footer *************************/
+footer {
+    height: 40vh;
+    padding: 3rem;
+    margin-top: 2rem;
+    color: #000;
+}
+
+footer .row {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .row .contact {
+    width: 30%;
+    height: 30vh;
+}
+
+footer .row .contact img {
+    width: 13vw;
+}
+
+footer .row .contact .datos ul h3 {
+    text-transform: uppercase;
+}
+
+footer .row .contact .datos ul li {
+    list-style: none;
+}
+
+footer .row .informacion,
+footer .row .links {
+    width: 30%;
+    height: 30vh;
+}
+
+footer .row .informacion h3,
+footer .row .links h3 {
+    text-transform: uppercase;
+}
+
+footer .row .informacion li,
+footer .row .links li {
+    list-style: none;
+}
+
+footer .row .informacion .media,
+footer .row .links .media {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .row .informacion .media ul,
+footer .row .links .media ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .row .informacion .media ul li i,
+footer .row .links .media ul li i {
+    font-size: large;
+    color: #000;
+    font-weight: bold;
+    margin: 10px;
+}
+
+footer #copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #copyright i {
+    color: red;
+    font-weight: bold;
+}
