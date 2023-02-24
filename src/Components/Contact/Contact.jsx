@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import {useForm} from 'react-hook-form'
+import { toast } from 'react-toastify';
 
 const Contact = () => {
   const datosFormulario = React.useRef()
+  const {register, handleSubmit} = useForm()
   let navigate = useNavigate()
   const consultarFormulario = (e) => {
     e.preventDefault()
@@ -12,6 +14,7 @@ const Contact = () => {
     const contacto = Object.fromEntries(datForm)
     console.log(contacto)
     e.target.reset()
+    toast.success('Información recibida')
     navigate('/')
   }
     return (
@@ -21,18 +24,18 @@ const Contact = () => {
             <img src="./img/LOGO.png" alt="logo" width="300px" />
           </Link>
         </div>
-        <form onSubmit={consultarFormulario} ref={datosFormulario}>
+        <form onSubmit={handleSubmit} ref={datosFormulario}>
           <div className="mb-3">
             <label className="form-label">Nombre y Apellido</label>
-            <input name='name-LastName' type="name" className="form-control" aria-describedby="name-lastName" />
+            <input {...register('name-Lastname')} type="name" className="form-control" aria-describedby="name-lastName" />
           </div>
           <div className="mb-3">
             <label className="form-label">E-mail</label>
-            <input name='email' type="email" className="form-control" />
+            <input {...register('email')} type="email" className="form-control" />
           </div>
           <div className="mb-3">
             <label className="form-label">¿Cómo podemos ayudarte?</label>
-            <input name='description' type="description" className="form-control" />
+            <input {...register('description')} type="description" className="form-control" />
           </div>
           <button type="submit" className="btn btn-dark submit">Enviar</button>
         </form>
