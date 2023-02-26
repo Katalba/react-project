@@ -327,5 +327,52 @@
         "categoria": "vestidos",
         "precio": 250,
         "stock": 30
+    },
+    {
+        "title": "Blazer en solapa",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/blazer-solopa.webp?alt=media&token=b099717a-ad03-4b14-84f0-09aee3e31c7e",
+        "categoria": "new-in",
+        "precio": 315,
+        "stock": 30
+    },
+    {
+        "title": "Blazer en tweed",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/blazer-tweed.webp?alt=media&token=ccdace3d-4921-4a99-8550-50192d08b924",
+        "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/blazer-tweed-1.0.webp?alt=media&token=a03ceca8-4622-4b5c-a17b-d97ab18b1681",
+        "categoria": "new-in",
+        "precio": 315,
+        "stock": 30
+    },
+    {
+        "title": "Body manda tres cuartos",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/body-mangatres.webp?alt=media&token=a8538c2f-9caf-48c4-8f9c-e0aa0638adc0",
+        "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/body-mangatres-1.0.webp?alt=media&token=a2673f06-e720-4be9-8663-8a75cd8cf278",
+        "categoria": "new-in",
+        "precio": 310,
+        "stock": 5
+    },
+    {
+        "title": "Bondy enterizo verde selva",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/body-verdeselva.webp?alt=media&token=4dadf7f2-8c60-4d84-92ba-32179de83d87",
+        "categoria": "new-in",
+        "precio": 375,
+        "stock": 10
+    },
+    {
+        "title": "Crop con sierre serable",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/crop-serable.webp?alt=media&token=d80ecf85-d056-4bef-88fc-dcef90a35a5d",
+        "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/crop-serable-1.0.webp?alt=media&token=9c28a20d-0e26-4dad-ba8d-560892f12cc3",
+        "categoria": "new-in",
+        "precio": 275,
+        "stock": 25
+    },
+    {
+        "title": "Pantalón en satin azul",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/pantalon-satin.webp?alt=media&token=7aca7d18-9486-45f1-807b-fb0bbb7ebd18",
+        "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/pantalon-satin-1.0.webp?alt=media&token=39b4f50d-cd2b-43be-8940-b4fce9fcc487",
+        "categoria": "new-in",
+        "precio": 400,
+        "stock": 20
     }
+
 ]
