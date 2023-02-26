@@ -1,5 +1,6 @@
 
 import { initializeApp } from "firebase/app";
+import {getFirestore, collection, addDoc} from 'firebase/firestore'
 
 const firebaseConfig = {
   apiKey: "AIzaSyB6mX2kfxIEQqOJydr3uFtKslX3WQ8XxG0",
@@ -12,3 +13,20 @@ const firebaseConfig = {
 
 
 const app = initializeApp(firebaseConfig);
+const db = getFirestore()
+
+export const chargeDB = async () => {
+  const promise = await fetch('./json/all-products.json')
+  const products = await promise.json()
+  products.forEach( async (prod) => {
+    await addDoc(collection (db,'products'), {
+      title: prod.title,
+      imagen: prod.imagen,
+      detailImg: prod.detailImg,
+      detailImgDos: prod.detailImgDos,
+      categoria: prod.categoria,
+      precio: prod.precio,
+      stock: prod.stock
+    })
+  })
+}

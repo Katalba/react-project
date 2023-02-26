@@ -11,7 +11,7 @@ const ItemDetailContainer = () => {
                 const item = products.find(prod => prod.id === id)
                 setProducto(item)
             })
-    }, [])
+    }, [id])
     return (
         <main className="detail-product">
            
