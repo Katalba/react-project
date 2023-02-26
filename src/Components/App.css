@@ -25,11 +25,12 @@
 }
 
 header {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/carousel-3.webp?alt=media&token=32ddaea7-b6ba-4be6-bd87-d47ad1843333);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/BANNER-HOME-NEW-IN-LG-17022023%20copia.webp?alt=media&token=53f0a692-fff2-4c76-a277-89b3908684ea);
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 70vh;
+    margin-bottom: 0.5rem;
 }
 
 .image {
@@ -272,6 +273,7 @@ form {
 
 /* *********************** Footer *************************/
 footer {
+    font-family: 'Roboto Condensed', sans-serif;
     height: 40vh;
     padding: 3rem;
     margin-top: 2rem;
@@ -292,7 +294,12 @@ footer .row .contact {
 }
 
 footer .row .contact img {
-    width: 13vw;
+    width: 14vw;
+    margin: 0 0 1rem 1rem;
+}
+
+.marginF ul li{
+    margin: 1rem;
 }
 
 footer .row .contact .datos ul h3 {
@@ -345,6 +352,7 @@ footer #copyright {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 3rem;
 }
 
 footer #copyright i {

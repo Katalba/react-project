@@ -23,7 +23,6 @@ export const chargeDB = async () => {
       title: prod.title,
       imagen: prod.imagen,
       detailImg: prod.detailImg,
-      detailImgDos: prod.detailImgDos,
       categoria: prod.categoria,
       precio: prod.precio,
       stock: prod.stock

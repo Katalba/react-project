@@ -2,7 +2,7 @@ import React from 'react';
 
 const Links = () => {
     return (
-        <div className="links">
+        <div className="links marginF">
             <h3>Mantente al día</h3>
             <div className="media">
                 <ul>

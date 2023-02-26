@@ -1,6 +1,5 @@
 [
     {
-        "id": "accesorios01",
         "title": "Monedero Abstract",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/bisuteria-diez.webp?alt=media&token=266fae3f-abf7-491d-89a1-d0433b9ce2bf",
         "categoria": "accesorios",
@@ -8,7 +7,6 @@
         "stock": 30
     },
     {
-        "id": "accesorios02",
         "title": "Set de aretes",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/bisuteria-doce.webp?alt=media&token=c7158a4f-1933-4f27-abe6-c2fa126f5bd0",
         "categoria": "accesorios",
@@ -16,7 +14,6 @@
         "stock": 20
     },
     {
-        "id": "accesorios03",
         "title": "Aretes Dorados M",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/bisuteria-nueve.webp?alt=media&token=977ae968-8fb7-430c-bf17-b3330d079281",
         "categoria": "accesorios",
@@ -24,7 +21,6 @@
         "stock": 15
     },
     {
-        "id": "accesorios04",
         "title": "Gorra Powelful",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/bisuteria-once.webp?alt=media&token=fb27d776-8a35-478a-8b09-6f6b491a5842",
         "categoria": "accesorios",
@@ -32,7 +28,6 @@
         "stock": 30
     },
     {
-        "id": "accesorios05",
         "title": "Set de pulseras",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/bisuteria-ocho.webp?alt=media&token=94b55515-aec1-4507-b69a-12704f29fc19",
         "categoria": "accesorios",
@@ -40,7 +35,6 @@
         "stock": 20
     },
     {
-        "id": "accesorios06",
         "title": "Aretes Ondulados S",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/bisuteria-seis.webp?alt=media&token=d1f91cc0-d56e-452a-a3e2-67110ef4232f",
         "categoria": "accesorios",
@@ -48,7 +42,6 @@
         "stock": 15
     },
     {
-        "id": "accesorios07",
         "title": "Argollas Verdes",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/bisuteria-siete.webp?alt=media&token=4326c0ae-a6cb-460a-af6a-51f46687518a",
         "categoria": "accesorios",
@@ -56,7 +49,6 @@
         "stock": 30
     },
     {
-        "id": "accesorios08",
         "title": "Bolso mimbre",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/bolso-cuatro.webp?alt=media&token=5e279ae3-49d4-41b9-98d3-e08075fc753a",
         "categoria": "accesorios",
@@ -64,7 +56,6 @@
         "stock": 20
     },
     {
-        "id": "accesorios09",
         "title": "Bandolera negra cuero",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/bolso-tres.webp?alt=media&token=f1273fe2-caad-4490-bba2-8b295a738aaa",
         "categoria": "accesorios",
@@ -72,7 +63,6 @@
         "stock": 15
     },
     {
-        "id": "accesorios10",
         "title": "Cadena Doble Dorada",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/Cadena.webp?alt=media&token=da66be54-79f4-448c-874d-01a47089457d",
         "categoria": "accesorios",
@@ -80,7 +70,6 @@
         "stock": 30
     },
     {
-        "id": "accesorios11",
         "title": "Cadena con punta Plateada",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/Cadena2.webp?alt=media&token=b170d523-e530-486e-a809-25fcd9c56ae9",
         "categoria": "accesorios",
@@ -88,7 +77,6 @@
         "stock": 20
     },
     {
-        "id": "accesorios12",
         "title": "Bolso casual Love",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/ACCESORIOS-PORTADA.webp?alt=media&token=519ec531-c05c-4a9d-8468-bc3b3faa1c68",
         "detailImg": "",
@@ -97,7 +85,6 @@
         "stock": 15
     },
     {
-        "id": "jean01",
         "title": "Jean O. Bota Campana",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/jeann.webp?alt=media&token=53b625ae-2389-4a95-8af5-456021fa88f6",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/jeann-1.0.webp?alt=media&token=e81c77e7-3a59-4319-b4a9-6e71688578c9",
@@ -106,7 +93,6 @@
         "stock": 15
     },
     {
-        "id": "jean02",
         "title": "Jean Skinny Blanco",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/jean%20blanco.webp?alt=media&token=02f387b3-8a5f-4d4c-9912-50cd5f7a2d6e",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/jean-blanco-1.0.webp?alt=media&token=061f26db-2242-4827-87fd-49fdeb33933c",
@@ -115,7 +101,6 @@
         "stock": 20
     },
     {
-        "id": "jean03",
         "title": "Jean Recto Amarillo",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/Jean%20amarillo.webp?alt=media&token=867ce187-ca4e-4697-beae-6a2f1cd67990",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/jean-amarillo-1.0.webp?alt=media&token=33eccba2-9549-42ee-aeba-ffede67d6a39",
@@ -124,7 +109,6 @@
         "stock": 30
     },
     {
-        "id": "jean04",
         "title": "Jean Cropped Claro",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/Jeancorto.webp?alt=media&token=7b23259a-8104-4fc5-9c49-d514c100d939",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/jean-corto-1.0.webp?alt=media&token=9ccccba6-4837-474d-9628-ecd8cee2c893",
@@ -133,7 +117,6 @@
         "stock": 15
     },
     {
-        "id": "jean05",
         "title": "Jean BR con recorte en Cos",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/Jeanmoderno.webp?alt=media&token=dfb6059f-b149-491d-8073-48b8264f7adc",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/jean-moderno-1.0.webp?alt=media&token=cfdb1606-417d-415d-af91-a79c14011e54",
@@ -143,7 +126,6 @@
         "stock": 20
     },
     {
-        "id": "jean06",
         "title": "Jean Cuero Cropped Beige",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/JEAN-PORTADA.webp?alt=media&token=587789a5-718a-4ff7-a89a-e274c5916767",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/jean-portada.0.webp?alt=media&token=edc5f134-49f2-4509-bcb6-be7fd4755add",
@@ -152,7 +134,6 @@
         "stock": 30
     },
     {
-        "id": "jean07",
         "title": "Palazzo con colgante beige",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/jean-siete.webp?alt=media&token=116e383a-a60b-4860-bc17-d404ea6b493c",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/jean-siete.0.webp?alt=media&token=20827c97-b298-4d46-a354-462f1b3265fa",
@@ -161,7 +142,6 @@
         "stock": 15
     },
     {
-        "id": "jean08",
         "title": "Jean Skinny T. Alto ",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/jean-ocho.webp?alt=media&token=cd43d500-6f43-40d7-8de0-8168e2894d32",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/jean-ocho.0.webp?alt=media&token=8c8554fc-02ff-4b18-a5c8-5f070abad891",
@@ -170,7 +150,6 @@
         "stock": 20
     },
     {
-        "id": "jean09",
         "title": "Palazzo con pliegue claro",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/jean-nueve.webp?alt=media&token=9daa2fa6-b694-49fc-bc72-e13ef9bd4dba",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/jean-nueve.0.webp?alt=media&token=f9932006-8e6a-4071-9bc0-a7735fbc8807",
@@ -179,7 +158,7 @@
         "stock": 30
     },
     {
-        "id": "jean10",
+
         "title": "Jean Cropped despuntado",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/jean-diez.webp?alt=media&token=0e9ea858-b065-4eec-b8e2-1d5add17f7fa",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/jean-diez.0.webp?alt=media&token=c6f35fb5-7f81-4085-b3f7-ba0ced87e183",
@@ -188,7 +167,7 @@
         "stock": 15
     },
     {
-        "id": "jean11",
+        
         "title": "Jean Cropped Bota ancha",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/jean-once.webp?alt=media&token=0933a4f2-b2e9-4226-ac54-404345f0a53a",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/jean-once.0.webp?alt=media&token=5a731b8c-63e6-4ade-8fc8-2bc75ab87ee0",
@@ -197,7 +176,6 @@
         "stock": 20
     },
     {
-        "id": "jean12",
         "title": "Jean Cropped Negro",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/jean-doce.webp?alt=media&token=5d09c8f2-9dc3-461a-a2f5-9620ddabf3df",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/jean-doce.0.webp?alt=media&token=67445967-536d-41f5-a2e3-25d2cb95c5e5",
@@ -206,7 +184,6 @@
         "stock": 30
     },
     {
-        "id": "remeras01",
         "title": "Blusa manga corta con amarre",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/blusa-1.webp?alt=media&token=ae745532-bafa-40fd-82fa-452ac7c3a7e8",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/blusa-1.0.webp?alt=media&token=31ab787c-13e7-409a-a8be-434c86152286",
@@ -215,7 +192,6 @@
         "stock": 30
     },
     {
-        "id": "remeras02",
         "title": "Crop envolvente",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/blusa-2.webp?alt=media&token=4e80c6fd-d6f3-48b2-92b9-c01cf4f8a60b",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/blusa-2.0.webp?alt=media&token=17b668ca-ad63-4d05-b5c5-f3f0335cd2d9",
@@ -224,7 +200,6 @@
         "stock": 20
     },
     {
-        "id": "remeras03",
         "title": "Blusa con frente cruzado",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/blusa-3.webp?alt=media&token=29504c06-2d1d-4ff1-844e-29dd74633606",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/blusa-3.0.webp?alt=media&token=96bb13ba-85e3-44af-8616-a76c38e3a6de",
@@ -233,7 +208,6 @@
         "stock": 15
     },
     {
-        "id": "remeras04",
         "title": "Camisa corta blanca",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/blusa-4.webp?alt=media&token=336d7d64-c1b2-4ef2-9235-de10dce9e109",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/blusa-4.0.webp?alt=media&token=e0ec5447-e61a-43fe-a50f-6808655173f9",
@@ -243,7 +217,6 @@
         "stock": 30
     },
     {
-        "id": "remeras05",
         "title": "Blusa con cuello cruzado",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/blusa-5.webp?alt=media&token=9d3147d4-44f0-477d-90ee-29c1336d31ea",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/blusa-5.0.webp?alt=media&token=2334a9ef-468d-438a-9bff-8b66cbb445c5",
@@ -252,7 +225,6 @@
         "stock": 20
     },
     {
-        "id": "remeras06",
         "title": "Blusa manga larga gris",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/blusa-6.webp?alt=media&token=71b46c12-3203-45e6-bedd-8a56c82db2dc",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/blusa-6.0.webp?alt=media&token=1250ab1e-e33f-4088-b89d-e39bbca2baa1",
@@ -261,7 +233,6 @@
         "stock": 15
     },
     {
-        "id": "vestido01",
         "title": "Vestido Corto Naranja",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido1.webp?alt=media&token=57326cb2-5fb5-4792-8d33-75e066f25897",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido1-1.0.webp?alt=media&token=a236d48c-3c9a-42eb-968e-1a3ba75f0480",
@@ -270,7 +241,6 @@
         "stock": 30
     },
     {
-        "id": "vestido02",
         "title": "Vestido Manga larga Señido",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido2.webp?alt=media&token=bba63e2a-ab97-418c-9510-f601441edd9e",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido2-1.0.webp?alt=media&token=85d09b79-3bb8-4ead-a0e6-50b483c396aa",
@@ -279,7 +249,6 @@
         "stock": 15
     },
     {
-        "id": "vestido03",
         "title": "Vestido corto en Jean",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido3.webp?alt=media&token=147ffa73-0659-4109-9225-a814f0df8976",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido3.0.webp?alt=media&token=f1d682e6-1b5b-4b17-9cd4-bee7f71ab31a",
@@ -288,7 +257,6 @@
         "stock": 20
     },
     {
-        "id": "vestido04",
         "title": "Vestido corto rosa",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido4.webp?alt=media&token=31b078e8-df08-47cb-94f6-89d5633b0875",
         "categoria": "vestidos",
@@ -296,7 +264,6 @@
         "stock": 30
     },
     {
-        "id": "vestido05",
         "title": "Vestido con bolero blanco",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido5.webp?alt=media&token=139ea355-1d04-47d5-97ea-f25dd851de13",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido5.0.webp?alt=media&token=1722a9ff-e5f8-4a60-8c58-d15995955ca3",
@@ -305,7 +272,6 @@
         "stock": 15
     },
     {
-        "id": "vestido06",
         "title": "Vestido Camiseta en rayas",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido6.webp?alt=media&token=024b4533-6359-4c30-ae66-ea665628ef51",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido6.0.webp?alt=media&token=cf7f5aee-3ec4-4017-a98e-9182effa1914",
@@ -314,7 +280,6 @@
         "stock": 20
     },
     {
-        "id": "vestido07",
         "title": "Vestido floreado largo",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido7.webp?alt=media&token=3fe3d325-ab78-428d-ae25-16675b0d3c7b",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido7-1.0.webp?alt=media&token=4a6989b7-f5f8-4129-b77f-87a2e42232f4",
@@ -323,7 +288,6 @@
         "stock": 30
     },
     {
-        "id": "vestido08",
         "title": "Vestido negro en encaje",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido12.webp?alt=media&token=14e15104-996d-4e51-8a99-34b1bcda2634",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido12-1.0.webp?alt=media&token=1557341f-831b-49ad-bb5a-348b7c0836ad",
@@ -332,7 +296,6 @@
         "stock": 15
     },
     {
-        "id": "vestido09",
         "title": "Vestido seda sin mangas rosa",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido8.webp?alt=media&token=564a4e86-0cd7-4839-bc97-525141df05a4",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido8-1.0.webp?alt=media&token=2df2b73f-a05b-492f-8ed8-7ede077964e3",
@@ -341,7 +304,6 @@
         "stock": 20
     },
     {
-        "id": "vestido10",
         "title": "Vestido con bolero corto beige",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido9.webp?alt=media&token=5c0a1f07-65f3-4326-a83d-842e54427fe3",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido9-1.0.webp?alt=media&token=fac23156-c555-4558-9b93-0baaae3678c7",
@@ -350,7 +312,6 @@
         "stock": 30
     },
     {
-        "id": "vestido11",
         "title": "Vestido Chaqueta cuero",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido10.webp?alt=media&token=4f676b83-d3ab-4856-aef5-3a0a98c5d16b",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido10.0.webp?alt=media&token=6ab6814f-2c4b-458b-be19-2c44b0953d2c",
@@ -360,7 +321,6 @@
         "stock": 15
     },
     {
-        "id": "vestido12",
         "title": "Vestido fiesta plateado",
         "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido11.webp?alt=media&token=7a8fd4f7-bb55-4be6-b8d4-d9213c9e3e28",
         "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/vestido11.0.webp?alt=media&token=85cd5296-5703-48ce-967d-99574ba692c2",
