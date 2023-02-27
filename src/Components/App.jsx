@@ -11,14 +11,15 @@ import Footer from './Footer/Footer';
 import Contact from './Contact/Contact';
 
 import { ToastContainer } from 'react-toastify';
-import { chargeDB } from '../utils/utils';
 import Cart from './Cart/Cart';
+
+import { getProducts } from '../utils/utils';
 
 
 
 const App = () => {
 
-  //chargeDB()
+getProducts()
   return (
     <>
       <BrowserRouter>

@@ -11,7 +11,7 @@ const CarouselHome = () => {
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <img src="https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/carousel-3.webp?alt=media&token=32ddaea7-b6ba-4be6-bd87-d47ad1843333" className="d-block w-100" alt="novedades" />
-                    <div class="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption d-none d-md-block">
                         <Link style={{ textDecoration: 'none' }} to='/categoria/amore'>
                             <button className="button-header bu-he-dos" >
                                 <p className="button-compra bu-co-dos">Comprar ahora</p>

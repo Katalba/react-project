@@ -1,6 +1,6 @@
 
 import { initializeApp } from "firebase/app";
-import {getFirestore, collection, addDoc} from 'firebase/firestore'
+import {getFirestore, collection, addDoc, getDoc, getDocs, doc} from 'firebase/firestore'
 
 const firebaseConfig = {
   apiKey: "AIzaSyB6mX2kfxIEQqOJydr3uFtKslX3WQ8XxG0",
@@ -28,4 +28,12 @@ export const chargeDB = async () => {
       stock: prod.stock
     })
   })
+}
+
+export const getProducts = async() => {
+  const products = await getDocs(collection(db, 'products'))
+  const items = products.docs.map(prod => {
+    return {...prod.data(), id: prod.id}
+  })
+  console.log(items)
 }
