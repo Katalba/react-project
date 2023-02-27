@@ -32,7 +32,7 @@ const Categories = () => {
             </Link>
             <Link to={'categoria/accesorios'}>
                 <div className="categorie">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/ACCESORIOS-PORTADA.webp?alt=media&token=519ec531-c05c-4a9d-8468-bc3b3faa1c68" alt="Accesorios" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/bolso-fucsia.webp?alt=media&token=44c75f7d-d658-4279-a4e2-b91780976fcd" alt="Accesorios" />
                     <div className="title-categorie">
                         <h4>Accesorios</h4>
                         <p>Ver todo</p>

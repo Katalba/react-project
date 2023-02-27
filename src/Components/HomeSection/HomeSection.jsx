@@ -6,7 +6,7 @@ const HomeSection = () => {
     return (
         <>
             <header>
-                <BtnComprar shop={"Ver todo"}/>
+                <BtnComprar shop={"Comprar ahora"}/>
             </header>
             <CarouselHome /> 
             <Categories />

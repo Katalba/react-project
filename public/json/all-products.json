@@ -373,6 +373,51 @@
         "categoria": "new-in",
         "precio": 400,
         "stock": 20
+    },
+    {
+        "title": "Billetera Amore Mío",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/billetera-amoremio.webp?alt=media&token=35d3d42f-a80f-4713-ab94-6e614d6a03b4",
+        "categoria": "amore",
+        "precio": 200,
+        "stock": 20
+    },
+    {
+        "title": "Camiseta a rayas",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/camiseta-rayas.webp?alt=media&token=24c89d46-a22a-489c-8827-eec10c57d657",
+        "categoria": "amore",
+        "precio": 250,
+        "stock": 20
+    },
+    {
+        "title": "Conjunto Crop y Pantalón",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/conjunto-crop-panta.webp?alt=media&token=917b7317-ddee-4c4c-a6bc-ffc577305394",
+        "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/conjunto-crop-panta-1.0.webp?alt=media&token=1197702b-dd59-4e1d-abd1-51a7688136af",
+        "categoria": "amore",
+        "precio": 780,
+        "stock": 7
+    },
+    {
+        "title": "Crop con anudado al frente",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/crop-anudado.webp?alt=media&token=3427617c-4979-4d24-9b46-7495a8d27c3a",
+        "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/crop-anudado-1.0.webp?alt=media&token=566898a9-bad0-49d5-b649-e77201d540af",
+        "categoria": "amore",
+        "precio": 330,
+        "stock": 25
+    },
+    {
+        "title": "Falda-short con cierre",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/falda-short-cierre.webp?alt=media&token=9dcc6370-06e4-4a06-839e-f1e82a65e9e6",
+        "detailImg": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/falda-short-cierre-1.0.webp?alt=media&token=a7618687-4d1c-492b-abbf-8383406acf21",
+        "categoria": "amore",
+        "precio": 450,
+        "stock": 10
+    },
+    {
+        "title": "Gorra amore",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/valkiria-react.appspot.com/o/gorra-amore.webp?alt=media&token=55d49b1f-10e9-4aac-a909-e7f5f618eec1",
+        "categoria": "amore",
+        "precio": 170,
+        "stock": 5
     }
 
 ]

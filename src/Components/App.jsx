@@ -18,7 +18,7 @@ import Cart from './Cart/Cart';
 
 const App = () => {
 
-  chargeDB()
+  //chargeDB()
   return (
     <>
       <BrowserRouter>
