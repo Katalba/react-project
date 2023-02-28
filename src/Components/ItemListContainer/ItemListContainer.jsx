@@ -1,22 +1,21 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import ItemList from '../ItemList/ItemList'
+import { getProducts } from "../../utils/utils";
 
 const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
     const {categoria}= useParams()
     useEffect(() => {
         if(categoria){
-            fetch('../json/all-products.json')
-            .then(response => response.json())
+            getProducts()
             .then(items => {
                 const products = items.filter(prod => prod.categoria === categoria)
                 const productList = ItemList({products})
                 setProductos(productList)
             })
         } else {
-            fetch('./json/all-products.json')
-            .then(response => response.json())
+            getProducts()
             .then(products => {
                 const productsList = ItemList({products})
                 setProductos(productsList)

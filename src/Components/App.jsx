@@ -13,13 +13,11 @@ import Contact from './Contact/Contact';
 import { ToastContainer } from 'react-toastify';
 import Cart from './Cart/Cart';
 
-import { getProducts } from '../utils/utils';
 
 
 
 const App = () => {
 
-getProducts()
   return (
     <>
       <BrowserRouter>

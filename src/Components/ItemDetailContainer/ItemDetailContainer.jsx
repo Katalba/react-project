@@ -1,14 +1,13 @@
 import { useState, useEffect } from "react";
 import ItemDetail from "../ItemDetail/ItemDetail";
 import { useParams } from "react-router-dom";
+import { getProduct } from "../../utils/utils";
 const ItemDetailContainer = () => {
     const [producto, setProducto] = useState([])
     const {id} = useParams()
     useEffect(() => {
-        fetch('../json/all-products.json')
-            .then(response => response.json())
-            .then(products => {
-                const item = products.find(prod => prod.id === id)
+        getProduct(id)
+            .then(item => {
                 setProducto(item)
             })
     }, [id])
