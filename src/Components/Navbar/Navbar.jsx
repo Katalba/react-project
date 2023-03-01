@@ -17,7 +17,7 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <Sections />
-                            <CartWidget amount={3} />
+                            <CartWidget />
                         </ul>
                     </div>
                 </div>

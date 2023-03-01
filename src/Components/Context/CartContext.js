@@ -1,15 +1,33 @@
 import { useContext, createContext, useState } from "react";
 
-const cartContext = createContext()
+const CartContext = createContext()
 
-export const useCartContext = () => useContext(cartContext)
+export const useCartContext = () => useContext(CartContext)
 
-export const carritoProvider = (props) => {
+export const CarritoProvider = (props) => {
     const [cart, setCart] = useState([])
 
     // Existe producto en el carrito?
     const isInCart = (id) => {
-        return cart.find(prod.id === id)
+        return cart.find(prod => prod.id === id)
+    }
+
+    // Agregar producto al carrito
+    const addItem = (product, cantidad) => {
+
+        if (isInCart(product.id)) {
+            const indice = cart.findIndex(prod => prod.id === product.id)
+            const aux = [...cart]
+            aux[indice].cant = cantidad
+            setCart(aux)
+        } else {
+            const prodCart = {
+                ...product,
+                cant: cantidad
+            }
+            setCart([...cart, prodCart])
+
+        }
     }
 
     //Vaciar carrito
@@ -24,9 +42,18 @@ export const carritoProvider = (props) => {
 
     //Cantidad total en carrito
     const getItemQuantify = () => {
-        return cart.reduce((acc, prod) => acc += prod.qtfy, 0)
+        return cart.reduce((acc, prod) => acc += prod.cant, 0)
     }
 
-    // Total 
+    // Total compra
+    const totalPrice = () => {
+        return cart.reduce((acc, prod) => acc += (prod.cant * prod.precio), 0)
+    }
+
+    return (
+        <CartContext.Provider value={{ cart, addItem, removeItem, emptyCart, getItemQuantify, totalPrice }}>
+            {props.children}
+        </CartContext.Provider>
+    )
 
 }

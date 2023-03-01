@@ -1,6 +1,11 @@
 import { ItemCount } from "../ItemCount/ItemCount";
+import { useCartContext } from "../Context/CartContext";
 
-const ItemDetail = ({item}) => {
+ export const ItemDetail = ({item}) => {
+    const {addItem} = useCartContext()
+    const onAdd = (cantidad) => {
+        addItem(item,cantidad)
+    }
     return (
         <>
             <div className="product-image">
@@ -22,7 +27,7 @@ const ItemDetail = ({item}) => {
                     <p>${new Intl.NumberFormat('de-DE').format(item.precio)}</p>
                 </div>
                 <div className="quantify">
-                    <ItemCount valInicial={1} stock={item.stock}/>
+                    <ItemCount valInicial={1} stock={item.stock} onAdd={onAdd}/>
                 </div>
                 <button className="add-to-cart">
                     <p>agregar al carrito</p>

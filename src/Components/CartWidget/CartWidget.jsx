@@ -1,13 +1,15 @@
 import { Link } from "react-router-dom";
+import { useCartContext } from "../Context/CartContext";
 
-const CartWidget = ({amount}) => {
+const CartWidget = () => {
+    const {getItemQuantify} = useCartContext()
+
     return (
         <li className="nav-item">
-            <Link id="show_cart" className="nav-link" to={'/cart'}><i className="fa-solid fa-cart-shopping"/></Link>
-            <p>{amount}</p>
-            <div className="container" id="cart">
-
-            </div>
+            <Link id="show_cart" className="nav-link" to={'/cartT'}>
+                <i className="fa-solid fa-cart-shopping" />
+                {getItemQuantify() > 0 && <span className="quantify">{getItemQuantify()}</span>}
+            </Link>
         </li>
     );
 }

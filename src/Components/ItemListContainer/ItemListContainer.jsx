@@ -3,21 +3,22 @@ import { useParams } from "react-router-dom";
 import ItemList from '../ItemList/ItemList'
 import { getProducts } from "../../utils/utils";
 
-const ItemListContainer = () => {
+ export const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
     const {categoria}= useParams()
     useEffect(() => {
         if(categoria){
             getProducts()
             .then(items => {
-                const products = items.filter(prod => prod.categoria === categoria)
-                const productList = ItemList({products})
-                setProductos(productList)
+                const products = items.filter(prod => prod.stock > 0).filter(prod => prod.categoria === categoria)
+                const productsList = <ItemList products={products} plantilla={'item'} />
+                setProductos(productsList)
             })
         } else {
             getProducts()
-            .then(products => {
-                const productsList = ItemList({products})
+            .then(items => {
+                const products = items.filter(prod => prod.stock > 0)
+                const productsList = <ItemList products={products} plantilla={'item'}/>
                 setProductos(productsList)
                 
             })
