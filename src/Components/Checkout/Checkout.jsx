@@ -3,12 +3,18 @@ import { Link } from "react-router-dom";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { createPurchaseOrder, getPurchaseOrder, getProduct, updateProduct } from "../../utils/utils";
-import { Swal } from 'sweetalert2'
-import { withReactContent } from 'sweetalert2-react-content'
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+import {useForm} from 'react-hook-form'
 
 export const Checkout = () => {
     const { cart, emptyCart, totalPrice } = useCartContext()
     const datosFormulario = React.useRef()
+    const {register, handleSubmit, formState: {errors}} = useForm()
+    const onSubmit = (data) => {
+        console.log(data)
+    }
+
     let navigate = useNavigate()
 
     const consultarFormulario = (e) => {
@@ -21,10 +27,9 @@ export const Checkout = () => {
         createPurchaseOrder(client, aux, totalPrice(), new Date().toISOString()).then(purchaseOrder => {
             const MySwal = withReactContent(Swal)
             MySwal.fire({
-                title: <strong>Gracias por comprar tu compra, tu orden de compra con el ID: ${purchaseOrder.id
-                } por un total de $ ${new Intl.NumberFormat('de-DE').format(totalPrice())} fue realizada con exito</strong>,
-                html: <i>You clicked the button!</i>,
-                icon: 'success'
+                title: 'Gracias por su compra',
+                text: `Su orden de compra por $ ${new Intl.NumberFormat('de-DE').format(totalPrice())} fue realizada con éxito`,
+                icon: 'success',
             })
             emptyCart()
             e.target.reset()
@@ -37,33 +42,38 @@ export const Checkout = () => {
                 ?
                 <>
                     <div className="finalEmpty">
-                        <h2>No agregaste productos aún <i class="fa-solid fa-heart-crack"></i></h2>
+                        <h2>No agregaste productos aún <i className="fa-solid fa-heart-crack"></i></h2>
                         <h3>Volvé a tienda y elegite algo lindo</h3>
                         <Link className="nav-link" to={'/'}><button className="btn btn-dark goToStore">Ir a la tienda</button></Link>
                     </div>
 
                 </>
                 :
-                <form onSubmit={consultarFormulario} ref={datosFormulario} >
+                <form onSubmit={handleSubmit(onSubmit)} ref={datosFormulario} >
                     <div className="mb-3">
                         <label className="form-label">Nombre y Apellido</label>
-                        <input name='name-Lastname' type="name" className="form-control" aria-describedby="name-lastName" />
+                        <input {...register('nameLastname', {required:true} )} type="name" placeholder="Juan Castro" className="form-control" aria-describedby="name-lastName" />
+                        {errors.nameLastname && <small className="fail">Campo requerido</small>}
                     </div>
                     <div className="mb-3">
                         <label className="form-label">E-mail</label>
-                        <input name='email' type="email" className="form-control" />
+                        <input {...register('email')} type="email" placeholder="Introduzca su email" className="form-control" />
+                        {errors.nameLastname && <small className="fail">Campo requerido</small>}
                     </div>
                     <div className="mb-3">
                         <label className="form-label">Repetir E-mail</label>
-                        <input name='repeatEmail' type="email" className="form-control" />
+                        <input {...register('repeatEmail')} type="email" placeholder="Repita su email" className="form-control" />
+                        {errors.nameLastname && <small className="fail">Campo requerido</small>}
                     </div>
                     <div className="mb-3">
                         <label className="form-label">Número de teléfono</label>
-                        <input name='phoneNumber' type="number" className="form-control" />
+                        <input {...register('phoneNumber', {required:true} )} type="number" placeholder="1112345678" className="form-control" />
+                        {errors.nameLastname && <small className="fail">Campo requerido</small>}
                     </div>
                     <div className="mb-3">
                         <label className="form-label">Dirección de envío</label>
-                        <input name='address' type="text" className="form-control" />
+                        <input {...register('address')} type="text" placeholder="Hidalgo 765 1 E" className="form-control" />
+                        {errors.nameLastname && <small className="fail">Campo requerido</small>}
                     </div>
                     <button type="submit" className="btn btn-dark submit">Finalizar compra</button>
                 </form>

@@ -429,6 +429,15 @@ form {
 
 }
 
+.fail{
+    color: red;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.form-control{
+    border-radius: 0;
+}
+
 .form-label {
     text-transform: uppercase;
 }
