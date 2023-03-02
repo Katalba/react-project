@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useCartContext } from "../Context/CartContext";
 import ItemList from "../ItemList/ItemList";
+import Categories from "../HomeSection/Categories/Categories";
 
 export const CartT = () => {
     const { cart, totalPrice, emptyCart } = useCartContext()
@@ -9,8 +10,12 @@ export const CartT = () => {
             {cart.length === 0
                 ? //Si carrito esta vacio
                 <>
-                    <h2>Carrito vacio</h2>
-                    <Link className="nav-link" to={'/'}><button className="btn btn-dark">Continuar comprando</button></Link>
+                    <div className="emptyCart">
+                        <h2>Tu carrito está vacío <i class="fa-solid fa-heart-crack"></i></h2>
+                        <h2> elegí algo de nuestras categorías <i class="fa-regular fa-face-smile-wink"></i></h2>
+                        <Link className="nav-link" to={'/'}><button className="btn btn-dark goToStore">Continuar comprando</button></Link>
+                    </div>
+                        
                 </>
                 : //Si carrito tiene productos
                 <>
@@ -32,7 +37,7 @@ export const CartT = () => {
                                 <th></th>
                             </tr>
                         </thead>
-                    {<ItemList products={cart} plantilla={'itemCart'} />}
+                        {<ItemList products={cart} plantilla={'itemCart'} />}
                     </table>
                     <hr />
                     <div className="divButtons">

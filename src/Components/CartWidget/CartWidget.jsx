@@ -8,7 +8,7 @@ const CartWidget = () => {
         <li className="nav-item">
             <Link id="show_cart" className="nav-link" to={'/cartT'}>
                 <i className="fa-solid fa-cart-shopping" />
-                {getItemQuantify() > 0 && <span className="quantify">{getItemQuantify()}</span>}
+                {getItemQuantify() > 0 && <span className="quantifyDos">{getItemQuantify()}</span>}
             </Link>
         </li>
     );

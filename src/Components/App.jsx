@@ -13,6 +13,7 @@ import Contact from './Contact/Contact';
 import { ToastContainer } from 'react-toastify';
 import CartT from './Cart/Cart'
 import { CarritoProvider } from './Context/CartContext';
+import Checkout from './Checkout/Checkout';
 
 
 
@@ -30,6 +31,7 @@ const App = () => {
             <Route path='/item/:id' element={<ItemDetailContainer />} />
             <Route path='/categoria/:categoria' element={<ItemListContainer />} />
             <Route path='/Contact' element={<Contact />} />
+            <Route path='/Checkout' element={<Checkout />} />
             <Route path='/CartT' element={<CartT />} />
           </Routes>
           <ToastContainer />

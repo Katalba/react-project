@@ -283,6 +283,26 @@ header {
     margin-left: -2rem;
 }
 
+.fa-cart-shopping{
+    position: relative;
+}
+
+.quantifyDos{
+    position: absolute;
+  top: 14px;
+  right: 1.5%;
+  background: red;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+  
+}
+
 .content-table{
     width: 80%;
     left: 50%;
@@ -347,6 +367,52 @@ tbody tr td i{
     width: 200px;
     border-radius: 0;
     margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.emptyCart{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.emptyCart h2{
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+
+}
+
+.emptyCart h2 i{
+    color: red;
+}
+
+/********************* Finalizar Compra *****************/
+.finalEmpty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.finalEmpty h2, h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.finalEmpty h2 i{
+    color: red;
+}
+
+.goToStore{
+    border-radius: 0;
     text-transform: uppercase;
     font-size: 15px;
 }
