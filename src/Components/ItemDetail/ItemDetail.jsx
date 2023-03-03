@@ -1,25 +1,36 @@
 import { ItemCount } from "../ItemCount/ItemCount";
 import { useCartContext } from "../Context/CartContext";
+import { useState } from "react";
 
  export const ItemDetail = ({item}) => {
+    const [fix, setFix] = useState(false)
     const {addItem} = useCartContext()
+
     const onAdd = (cantidad) => {
         addItem(item,cantidad)
     }
+
+    const setFixed = () => {
+        if (window.scrollY >= item.scroll) {
+            setFix(true)
+        } else {
+            setFix(false)
+        }
+    }
+
+    window.addEventListener('scroll', setFixed)
+
     return (
         <>
             <div className="product-image">
-                <div>
-                    <img src={item.imagen} alt={item.title} />
-                </div>
-                <div>
-                    <img src={item.detailImg} alt={item.title} />
-                </div>
-                <div>
-                    <img src={item.detailImgDos} alt={item.title} />
+                    <img className="imgUno" src={item.imagen} alt={item.title} />
+    
+                <div className="product-detail">
+                    <img className="imgDos" src={item.detailImg} alt={item.title} />
+                    <img className="imgTres" src={item.detailImgDos} alt={item.title} />
                 </div>
             </div>
-            <div className="product-information">
+            <div className={ fix ? "product-information fixed" : "product-information"}>
                 <div className="product-name">
                     <p>{item.title}</p>
                 </div>
@@ -29,9 +40,6 @@ import { useCartContext } from "../Context/CartContext";
                 <div className="quantify">
                     <ItemCount valInicial={1} stock={item.stock} onAdd={onAdd}/>
                 </div>
-                <button className="add-to-cart">
-                    <p>agregar al carrito</p>
-                </button>
             </div>
         </>
     );

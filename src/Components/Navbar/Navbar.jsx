@@ -3,6 +3,7 @@ import Sections from "./Sections/Sections";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+    
 
     return (
         <div className="nav_bar">
