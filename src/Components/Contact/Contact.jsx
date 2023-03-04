@@ -5,6 +5,7 @@ import { toast } from 'react-toastify';
 const Contact = () => {
   const datosFormulario = React.useRef()
   let navigate = useNavigate()
+  
   const consultarFormulario = (e) => {
     e.preventDefault()
     console.log(datosFormulario.current)

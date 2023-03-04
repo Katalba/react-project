@@ -8,12 +8,10 @@ import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
 
 
-
 export const Checkout = () => {
     const { cart, emptyCart, totalPrice } = useCartContext()
     const datosFormulario = React.useRef()
     const { register, handleSubmit, formState: { errors }, getValues } = useForm()
-
 
 
     const onSubmit = (data) => {
@@ -33,7 +31,7 @@ export const Checkout = () => {
         createPurchaseOrder(client, aux, totalPrice(), new Date().toISOString()).then(purchaseOrder => {
             const MySwal = withReactContent(Swal)
             MySwal.fire({
-                title: 'Gracias por su compra',
+                title: 'GRACIAS POR SU COMPRA',
                 text: `Su orden de compra: ${purchaseOrder.id} por: $${new Intl.NumberFormat('de-DE').format(totalPrice())} fue realizada con éxito`,
                 icon: 'success',
             })
@@ -61,7 +59,7 @@ export const Checkout = () => {
                 <form onSubmit={handleSubmit(onSubmit)} ref={datosFormulario} >
                     <div className="mb-3">
                         <label className="form-label">Nombre y Apellido</label>
-                        <input {...register('nameLastname', { required: true })} type="name" placeholder="Juan Castro" className="form-control" aria-describedby="name-lastName" />
+                        <input {...register('nameLastname', { required: true })} type="name" className="form-control" aria-describedby="name-lastName" />
                         {errors.nameLastname && <small className="fail">Campo requerido</small>}
                     </div>
                     <div className="mb-3">
@@ -73,7 +71,7 @@ export const Checkout = () => {
                             {...register("email1", { required: true })}
                         />
                         {errors?.email1?.type === "minLength" && (
-                            <small className="fail">La dirección de email no es valida</small>
+                            <small className="fail">La dirección de email no es válida</small>
                         )}
                         {errors?.email1?.type === "required" && (
                             <small className="fail">Es necesario ingresar tu email</small>
@@ -88,7 +86,7 @@ export const Checkout = () => {
                             {...register("email2", { required: true, validate: { equalMails: mail2 => mail2 === getValues().email1 } })}
                         />
                         {errors?.email2?.type === "minLength" && (
-                            <small className="fail">La dirección de email no es valida</small>
+                            <small className="fail">La dirección de email no es válida</small>
                         )}
 
                         {errors?.email2?.type === "required" && (
@@ -100,11 +98,12 @@ export const Checkout = () => {
                     </div>
                     <div className="mb-3">
                         <label className="form-label">Número de teléfono</label>
-                        <input {...register('phoneNumber', { required: true })}
+                        <input {...register('phoneNumber', { required: true, maxLength: 10})}
                             type="number"
                             placeholder="1112345678"
                             className="form-control" />
-                        {errors.nameLastname && <small className="fail">Campo requerido</small>}
+                        {errors.phoneNumber?.type === 'required' && <small className="fail">Campo requerido</small>}
+                        {errors.phoneNumber?.type === 'maxLength' && <small className="fail">El campo debe tener sólo 10 caracteres</small>}
                     </div>
                     <div className="mb-3">
                         <label className="form-label">Dirección de envío</label>
