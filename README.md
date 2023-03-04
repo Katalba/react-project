@@ -1,24 +1,26 @@
 # Valkiria Project Ecommerce
-_ Proyecto final de Coder House para React Developers. Un ecommerce funcional sin pasarela de pago_
+_Proyecto final de Coder House para React Developers. Un ecommerce funcional sin pasarela de pago_
 
 ### Requerimientos
 
 _Es necesario instalar las dependencias figuradas en el "package.json"_
 
 ...
+
 npm i
 ...
 
 ### Ejecución
  _Escriba en su consola:_
-
  ...
+
  npm start
  ...
 
  _Luego diríjase a la ruta:_
 
  ...
+ 
  localHost: 3000
  ...
 
