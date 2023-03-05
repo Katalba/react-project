@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import {getFirestore, collection, addDoc, getDoc, getDocs, doc, updateDoc, deleteDoc} from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB6mX2kfxIEQqOJydr3uFtKslX3WQ8XxG0",
+  apiKey: process.env.API_URL,
   authDomain: "valkiria-react.firebaseapp.com",
   projectId: "valkiria-react",
   storageBucket: "valkiria-react.appspot.com",
